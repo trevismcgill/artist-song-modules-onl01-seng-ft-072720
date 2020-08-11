@@ -9,7 +9,8 @@ include Memorable::InstanceMethods
 extend Findable
 include Paramable
 
-  @@artists = []
+  # @@artists = []
+  @@all = []
 
   def initialize
     super
