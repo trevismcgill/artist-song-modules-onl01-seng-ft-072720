@@ -22,7 +22,7 @@ include Paramable
   # end
 
   def self.all
-    @@artists
+    @@all
   end
 
   def add_song(song)
