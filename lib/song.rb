@@ -9,7 +9,8 @@ include Memorable::InstanceMethods
 extend Findable
 include Paramable
 
-  @@songs = []
+  # @@songs = []
+  @@all = []
 
   def initialize
     self.class.all << self
